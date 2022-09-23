@@ -27,8 +27,8 @@ The first line contains a single integer, <i>n</i> , the size of <i>candles</i>.
 The second line contains <i>n</i> space-separated integers, where each integer <i>i</i> describes the height of <i>candles[i]</i>.
 
 <strong>Constraints</strong>
-1 < = <i>n</i> < = 10<sup>5</sup>
-1 < = <i>candles[i]</i> < = 10<sup>7</sup>
+1 ≤ <i>n</i> ≤ 10<sup>5</sup>
+1 ≤ <i>candles[i]</i> ≤ 10<sup>7</sup>
 
 <strong>Sample Input 0</strong>
 
