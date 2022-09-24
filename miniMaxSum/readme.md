@@ -44,11 +44,11 @@ Print two space-separated long integers denoting the respective minimum and maxi
 
 <strong>Sample Input</strong>
 
-1 2 3 4 5
+> 1 2 3 4 5
 
 <strong>Sample Output</strong>
 
-10 14
+> 10 14
 
 <strong>Explanation</strong>
 

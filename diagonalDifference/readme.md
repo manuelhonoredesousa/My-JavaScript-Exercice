@@ -7,9 +7,9 @@ Given a square matrix, calculate the absolute difference between the sums of its
 
 For example, the square matrix <strong><i>arr</i></strong> is shown below:
 
-1 2 3
-4 5 6
-9 8 9  
+> 1 2 3
+> 4 5 6
+> 9 8 9  
 
 The left-to-right diagonal = <strong>1 + 5 + 9 = 15</strong>. The right to left diagonal = <strong>3 + 5 + 9 = 17</strong>. Their absolute difference is <strong>|15 - 17| = 2</strong>.
 
@@ -39,30 +39,30 @@ Return the absolute difference between the sums of the matrix's two diagonals as
 
 <strong>Sample Input</strong>
 
-3
-11 2 4
-4 5 6
-10 8 -12
+> 3
+> 11 2 4
+> 4 5 6
+> 10 8 -12
 
 <strong>Sample Output</strong>
 
-15
+> 15
 
 <strong>Explanation</strong>
 
 The primary diagonal is:
 
-11
-&nbsp;&nbsp;&nbsp;&nbsp;5
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-12
+> 11
+>&nbsp;&nbsp;&nbsp;&nbsp;5
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-12
 
 Sum across the primary diagonal: 11 + 5 - 12 = 4
 
 The secondary diagonal is:
 
-&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4
-&nbsp;&nbsp;&nbsp;&nbsp;5
-10
+>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4
+>&nbsp;&nbsp;&nbsp;&nbsp;5
+>10
 
 Sum across the secondary diagonal: 4 + 5 + 10 = 19
 
