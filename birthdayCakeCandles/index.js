@@ -1,5 +1,3 @@
-const candles = [3, 1, 2, 3];
-
 function birthdayCakeCandles(candles) {
   // Write your code here
   let maxCandle = Math.max(...candles);
@@ -13,4 +11,5 @@ function birthdayCakeCandles(candles) {
   return howHighCandles;
 }
 
+const candles = [3, 1, 2, 3];
 console.log(birthdayCakeCandles(candles));
